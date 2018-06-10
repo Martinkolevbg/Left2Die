@@ -14,7 +14,7 @@
 
 ## Authors
 
-	**Martin Kolev** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+	* **Martin Kolev** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 
 ## License

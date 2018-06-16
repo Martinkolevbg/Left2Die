@@ -6,8 +6,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     //Components
+
     private CharacterController controller;
     private Camera cam;
+    private Gun gun;
+
     //Handling
     public float rotationSpeed = 450;
     public float runSpeed = 8;
@@ -26,6 +29,11 @@ public class PlayerController : MonoBehaviour
     {
         ControlMouse();
         //controlWSAD();
+
+        if(Input.GetButtonDown("Shoot"))
+        {
+            gun.Shoot();
+        }
     }
     void ControlMouse()
     {

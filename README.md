@@ -14,7 +14,7 @@
 
 ## Authors
 
-* 	[Martin Kolev]
+* 	Martin Kolev
 
 
 ## License
